@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "libsignal-protocol": "git+https://github.com/signalapp/libsignal-protocol-javascript.git",
+    "nodemon": "^3.1.10",
+    "socket.io": "^2.2.0"
+  }
+}
